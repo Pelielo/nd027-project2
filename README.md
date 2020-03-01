@@ -35,7 +35,7 @@ from song_plays_user
 where user_id = x and session_id = y
 ```
 
-3. The third and final table is `song_plays_song`. It contains the columns `song_title`, `user_first_name` and `user_last_name` and is built to satisfy the query 
+3. The third and final table is `song_plays_song`. It contains the columns `song_title`, `user_first_name`, `user_last_name` and `user_id` and is built to satisfy the query 
 
 ```sql
 select 
